@@ -1,0 +1,11 @@
+name: fermipy
+
+channels:
+  - conda-forge
+  - fermi
+
+dependencies:
+  - python =3.7
+  - pip
+  - fermitools =2.0.8
+  - clhep =2.4.4.1

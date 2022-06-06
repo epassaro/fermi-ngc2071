@@ -1,0 +1,8 @@
+wget https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L22060721461123AE1B5571_PH00.fits
+wget https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L22060721461123AE1B5571_PH02.fits
+wget https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L22060721461123AE1B5571_PH03.fits
+wget https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L22060721461123AE1B5571_PH01.fits
+wget https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L22060721461123AE1B5571_PH04.fits
+wget https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L22060721461123AE1B5571_PH05.fits
+wget https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L22060721461123AE1B5571_SC00.fits
+wget https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L22060721461123AE1B5571_PH06.fits

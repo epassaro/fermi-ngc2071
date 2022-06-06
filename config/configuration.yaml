@@ -1,0 +1,49 @@
+data:
+  evfile: '/workdir/ngc2071_filtered_gti.fits'
+  scfile: '/workdir/spacecraft.fits'
+
+binning:
+  roiwidth   : 20
+  binsz      : 0.1
+  binsperdec : 8
+
+selection :
+  convtype  : -1
+  emin      : 100
+  emax      : 300000
+  tmin      : 239557417
+  tmax      : 302227202
+  zmax      : 90
+  evclass   : 128
+  evtype    : 3
+  ra        : 86.7683
+  dec       : 0.3636
+  roicut    : 'no'
+  filter    : null
+
+localize:
+  dtheta_max    : 0.5
+
+gtlike:
+  edisp         : True
+  irfs          : 'P8R3_SOURCE_V3'
+  edisp_disable : ['isodiff']
+  convolve: true
+  minbinsz: 0.05
+  resample: true
+  rfactor: 2
+  srcmap: null
+
+model:
+  src_roiwidth : 20.
+  galdiff      : '/workdir/gll_iem_v07.fits'
+  isodiff      : '/workdir/iso_P8R3_SOURCE_V3_v1.txt'
+  catalogs     :
+    - '/workdir/mymodel.xml'
+
+optimizer:
+  min_fit_quality : 3
+  optimizer       : NEWMINUIT
+  retries         : 3
+  tol             : 0.001 #0.0001
+  verbosity       : 1

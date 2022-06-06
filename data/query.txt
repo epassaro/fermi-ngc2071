@@ -1,0 +1,8 @@
+Object name or coordinates:     86.7683, 0.3636
+Coordinate system:              J2000
+Search radius (degrees):        20
+Observation dates:              START, 2010-07-31 00:00:00
+Time system:                    Gregorian
+Energy range (MeV):             
+LAT data type:                  Photon
+Spacecraft data:                Yes
