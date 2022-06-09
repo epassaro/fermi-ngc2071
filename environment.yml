@@ -8,4 +8,5 @@ dependencies:
   - python =3.7
   - pip
   - fermitools =2.0.8
+  - matplotlib =3.4
   - clhep =2.4.4.1
